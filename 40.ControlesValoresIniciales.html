@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+Nombre:
+<input type = "text" name= "nombre">
+<br>
+Email:
+<input type = "text" name= "email">
+<br>
+Pais:
+<br>
+<select name = "pais">
+<option value = "opcion" selected>Seleccione pais</option>
+<option value = "opcion1">Brazil</option>
+<option value = "opcion2">Estados Unidos</option>
+<option value = "opcion3">Mexico</option>
+<option value = "opcion4">España</option>
+</select>
+
+<br>
+Como considera el sitio:
+<select name = "sitio">
+<option value = "opcion1">Excelente</option>
+<option value = "opcion1">Muy bueno</option>
+<option value = "opcion1" selected>Bueno</option>
+<option value = "opcion1">Regular</option>
+<option value = "opcion1">Malo</option>
+</select>
+<br>
+<textarea name = "comentarios" rows = "5" cols = "40">Ingrese sus comentarios</textarea>
+<br>
+<input type = "submit" value = "Enviar">
+</form>
+</body>
+</html>
