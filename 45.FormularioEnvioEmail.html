@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="mailto:pizzasya@gmail.com?subject=Pedido de pizza" method="post" enctype = "text/plain">
+<fieldset>
+<legend>Seleccione ingrediente y cantidad de pizzas</legend>
+Pizza:
+<select name = "pizzas">
+<option value="opcion1">Pepperoni</option>
+<option value="opcion2">Vegetariana</option>
+<option value="opcion3">Hawaiana</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Datos</legend>
+Nombre:
+<input type = "text" name = "nombre" size = "15">
+<br>
+Direccion:
+<input type = "text" name = "direccion" size = "20">
+<br>
+Telefono
+<input type = "text" name = "telefono" size = "10">
+</fieldset>
+<br>
+<input type ="submit" value= "Enviar">
+
+</form>
+</body>
+</html>
